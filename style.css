@@ -29,7 +29,8 @@ h1 {
 }
 
 #inputText,
-#inputNumber, #inputSorting {
+#inputNumber,
+#inputSorting {
   background-color: rgba(5, 103, 141, 0.975);
   border: 5px solid rgb(96, 1, 1);
   font-family: "Secular One", sans-serif;
@@ -67,4 +68,16 @@ h1 {
   justify-items: center;
   margin: 10px;
   padding: 10px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
 }
