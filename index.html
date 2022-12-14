@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css" />
     <script src="anime.min.js"></script>
     <script src="script.js" defer></script>
-    <title>Slutprojekt</title>
+    <title>FLICKR Project</title>
   </head>
   <body>
-    <form>
-      <input type="text" id="inputText" />
-      <input type="number" id="inputNumber" />
+    <form id="form">
+      <input type="text" id="inputText" placeholder="Search..." />
+      <input type="number" id="inputNumber" placeholder="Number of img's..." />
+      <br>
       <button id="button">Search</button>
+      
+      <p id="animeParagraph">PICS INC..</p>
 
       <h3>Image sizes:</h3>
       <div id="sorting-sizes">
@@ -28,13 +31,13 @@
       </div>
 
       <h3>Sort by:</h3>
-        <input id="inputSorting" list="sortings" name="myBrowser"/></label>
+        <input id="inputSorting" list="sortings" name="myBrowser" placeholder="Sort by..."/></label>
       <datalist id="sortings">
         <option value="Date posted"></option>
         <option value="Interestingness"></option>
         <option value="Relevance"></option>
       </datalist>
-      <div id="divForThePictures"></div>
     </form>
+    <div id="divForThePictures"></div>
   </body>
 </html>
