@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Slutprojekt</title>
   </head>
   <body>
     <form>
-      <input type="text" id="input" />
+      <input type="text" id="inputText" />
       <input type="number" id="inputNumber" />
       <button id="button">Search</button>
+
+      <h3>Image sizes:</h3>
+      <div id="sorting-sizes">
+        <label>Small</label>
+        <input type="checkbox" />
+        <br />
+        <label>Medium</label>
+        <input type="checkbox" />
+        <br />
+        <label>Large</label>
+        <input type="checkbox" />
+      </div>
+
+      <h3>Sort after date:</h3>
+      <div id="sorting-date">
+        <label>Upload date (minimum)</label>
+        <input type="date" id="inputDateMin" />
+        <br />
+        <label>Upload date (maximum)</label>
+        <input type="date" id="inputDateMax" />
+      </div>
+
+      <h3>Sort after relevans/interesting:</h3>
+      <div id="sorting-relevance">
+        <label>Relevance</label>
+        <input type="checkbox" />
+        <br />
+        <label>Interesting</label>
+        <input type="checkbox" />
+      </div>
     </form>
   </body>
 </html>
