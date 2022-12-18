@@ -16,7 +16,7 @@ body {
   border-radius: 15px;
 }
 
-#animeParagraph {
+#animeDiv {
   color: rgba(5, 103, 141, 0.975);
   width: 30px;
   text-align: center;
@@ -42,7 +42,7 @@ h1 {
   color: rgba(0, 0, 0, 0.466);
 }
 
-#button {
+button {
   display: inline-block;
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
@@ -80,4 +80,10 @@ h1 {
 .counter {
   font-size: 60px;
   margin-top: 10px;
+}
+
+#images {
+  margin: 20px;
+  aspect-ratio: 16/9;
+  object-fit: fill;
 }

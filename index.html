@@ -22,10 +22,10 @@
       <input type="text" id="inputText" placeholder="Search..." />
       <input type="number" id="inputNumber" placeholder="Number of img's..." />
       <br>
-      <button id="button">Search</button>
+      
       
       <!-- Paragrafen som animeras -->
-      <p id="animeParagraph">PICS INC..</p>
+      <div id="animeDiv"></div>
 
      <!-- Checkboxarna för bildstorlekarna -->
       <h3>Image sizes:</h3>
@@ -48,7 +48,11 @@
         <option value="Interestingness"></option>
         <option value="Relevance"></option>
       </datalist>
+      <br>
+      <button id="button">Search</button>
+      <button id="randomButton">Random</button>
     </form>
     <div id="divForThePictures"></div>
+    <div id="error-message-container"></div>
   </body>
 </html>
